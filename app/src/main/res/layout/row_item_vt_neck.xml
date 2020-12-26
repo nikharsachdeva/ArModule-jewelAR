@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_circular_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/virtualtry_imgneck"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/virtualtry_imgneck"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/small"
+            android:paddingRight="@dimen/small">
+
+            <Button
+                android:id="@+id/virtualtry_knowbtnneck"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@drawable/ripple_whitish"
+                android:text="@string/know_more"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlackish"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
